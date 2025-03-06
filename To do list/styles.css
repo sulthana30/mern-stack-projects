@@ -1,0 +1,78 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://i.pinimg.com/736x/01/5e/1b/015e1b3312ec674f6f95b6fb95ea35f8.jpg') no-repeat center center/cover;
+}
+.container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+.todo-input {
+    display: flex;
+    gap: 10px;
+}
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+button {
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+button:hover {
+    background: #218838;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.task-text {
+    flex-grow: 1;
+    text-align: center;
+}
+.task-checkbox {
+    margin-right: 10px;
+}
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
